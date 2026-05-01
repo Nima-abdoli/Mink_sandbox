@@ -2,6 +2,12 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-01 13:18 IR
+- 🎬 [محاصره؛ انتخاب فعلی ترامپ.mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D9%85%D8%AD%D8%A7%D8%B5%D8%B1%D9%87%D8%9B%20%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%20%D9%81%D8%B9%D9%84%DB%8C%20%D8%AA%D8%B1%D8%A7%D9%85%D9%BE.mp4) `32.4MB`
+
+---
+
+
 ### 📅 2026-05-01 13:14 IR
 - 🗜️ [قالیباف؛ حذف از بازی ترامپ یا اجرای نمایش؟.mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D9%82%D8%A7%D9%84%DB%8C%D8%A8%D8%A7%D9%81%D8%9B%20%D8%AD%D8%B0%D9%81%20%D8%A7%D8%B2%20%D8%A8%D8%A7%D8%B2%DB%8C%20%D8%AA%D8%B1%D8%A7%D9%85%D9%BE%20%DB%8C%D8%A7%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%20%D9%86%D9%85%D8%A7%DB%8C%D8%B4%D8%9F.mp4.zip) `729KB`
 
