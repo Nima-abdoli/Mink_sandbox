@@ -7,8 +7,6 @@
 
 - 🎬 [Hollow Knight Lore Summary ► The Full Main Story.mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Hollow%20Knight%20Lore%20Summary%20%E2%96%BA%20The%20Full%20Main%20Story.mp4) `32.5MB`
 
-- 🗜️ [The Complete Story of Hollow Knight Silksong.mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/The%20Complete%20Story%20of%20Hollow%20Knight%20Silksong.mp4.zip) `55.0MB`
-
 - 🗜️ [The Complete Story of Hollow Knight Silksong.mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/The%20Complete%20Story%20of%20Hollow%20Knight%20Silksong.mp4.z01) `95.0MB`
 
 - 🗜️ [The Complete Story of Hollow Knight Silksong.mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/The%20Complete%20Story%20of%20Hollow%20Knight%20Silksong.mp4.zip) `55.0MB`
