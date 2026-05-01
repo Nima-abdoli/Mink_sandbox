@@ -5,8 +5,6 @@
 ### 📅 2026-05-01 18:27 IR
 - 🎬 [همه‌چیز مهیای جنگی دیگر شده.mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D9%87%D9%85%D9%87%E2%80%8C%DA%86%DB%8C%D8%B2%20%D9%85%D9%87%DB%8C%D8%A7%DB%8C%20%D8%AC%D9%86%DA%AF%DB%8C%20%D8%AF%DB%8C%DA%AF%D8%B1%20%D8%B4%D8%AF%D9%87.mp4) `46.1MB`
 
-- 🗜️ [پیشنهادهای سه‌گانه سنتکام به ترامپ برای حمله.mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%D9%87%D8%A7%DB%8C%20%D8%B3%D9%87%E2%80%8C%DA%AF%D8%A7%D9%86%D9%87%20%D8%B3%D9%86%D8%AA%DA%A9%D8%A7%D9%85%20%D8%A8%D9%87%20%D8%AA%D8%B1%D8%A7%D9%85%D9%BE%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AD%D9%85%D9%84%D9%87.mp4.zip) `41.2MB`
-
 - 🗜️ [پیشنهادهای سه‌گانه سنتکام به ترامپ برای حمله.mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%D9%87%D8%A7%DB%8C%20%D8%B3%D9%87%E2%80%8C%DA%AF%D8%A7%D9%86%D9%87%20%D8%B3%D9%86%D8%AA%DA%A9%D8%A7%D9%85%20%D8%A8%D9%87%20%D8%AA%D8%B1%D8%A7%D9%85%D9%BE%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AD%D9%85%D9%84%D9%87.mp4.z01) `95.0MB`
 
 - 🗜️ [پیشنهادهای سه‌گانه سنتکام به ترامپ برای حمله.mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%D9%87%D8%A7%DB%8C%20%D8%B3%D9%87%E2%80%8C%DA%AF%D8%A7%D9%86%D9%87%20%D8%B3%D9%86%D8%AA%DA%A9%D8%A7%D9%85%20%D8%A8%D9%87%20%D8%AA%D8%B1%D8%A7%D9%85%D9%BE%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AD%D9%85%D9%84%D9%87.mp4.zip) `41.2MB`
