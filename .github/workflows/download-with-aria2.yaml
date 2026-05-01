@@ -1,4 +1,4 @@
-name:  Download from Commit & Save to Repo
+name: 0x00 dl
 
 on:
   workflow_dispatch:
