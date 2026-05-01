@@ -2,6 +2,24 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-01 22:31 IR
+- 🎬 [Hollow Knight Lore RECAP - EVERYTHING You Need To Know For Silksong  [Thinkafurr].mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Hollow%20Knight%20Lore%20RECAP%20-%20EVERYTHING%20You%20Need%20To%20Know%20For%20Silksong%20%20%5BThinkafurr%5D.mp4) `57.7MB`
+
+- 🎬 [Hollow Knight Lore Summary ► The Full Main Story.mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Hollow%20Knight%20Lore%20Summary%20%E2%96%BA%20The%20Full%20Main%20Story.mp4) `32.5MB`
+
+- 🗜️ [The Complete Story of Hollow Knight Silksong.mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/The%20Complete%20Story%20of%20Hollow%20Knight%20Silksong.mp4.zip) `55.0MB`
+
+- 🗜️ [The Complete Story of Hollow Knight Silksong.mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/The%20Complete%20Story%20of%20Hollow%20Knight%20Silksong.mp4.z01) `95.0MB`
+
+- 🗜️ [The Complete Story of Hollow Knight Silksong.mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/The%20Complete%20Story%20of%20Hollow%20Knight%20Silksong.mp4.zip) `55.0MB`
+
+- 🎬 [The plot of Hollow Knight in six minutes.mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/The%20plot%20of%20Hollow%20Knight%20in%20six%20minutes.mp4) `15.9MB`
+
+- 🎬 [The plot of Silksong in 4 minutes (animation).mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/The%20plot%20of%20Silksong%20in%204%20minutes%20%28animation%29.mp4) `11.1MB`
+
+---
+
+
 ### 📅 2026-05-01 22:16 IR
 - 🎬 [$1000 Gaming PC - Classic LTT Build Guide (2026).mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%241000%20Gaming%20PC%20-%20Classic%20LTT%20Build%20Guide%20%282026%29.mp4) `56.7MB`
 
