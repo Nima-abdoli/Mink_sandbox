@@ -2,6 +2,16 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-01 15:56 IR
+- 🎬 [Automate Python Documentation ｜ Use Sphinx + GitHub  actions to publish documentation.mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Automate%20Python%20Documentation%20%EF%BD%9C%20Use%20Sphinx%20%2B%20GitHub%20%20actions%20to%20publish%20documentation.mp4) `73.1MB`
+
+- 🎬 [GitHub Action： Sphinx documentation.mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/GitHub%20Action%EF%BC%9A%20Sphinx%20documentation.mp4) `14.5MB`
+
+- 🎬 [How to use GitHub Actions ｜ GitHub for Beginners.mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20use%20GitHub%20Actions%20%EF%BD%9C%20GitHub%20for%20Beginners.mp4) `23.6MB`
+
+---
+
+
 ### 📅 2026-05-01 15:49 IR
 - 📱 [SlipNet-v2.5.3-full-universal.apk](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/SlipNet-v2.5.3-full-release-universal.apk) `54.6MB`
 
