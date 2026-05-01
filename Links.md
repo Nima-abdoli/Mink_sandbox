@@ -2,6 +2,16 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-01 13:30 IR
+- 🗜️ [Nintendo Switch 2： What's Next？ Direct & 3D Mario Release Timing, Summer Lineup, Zelda Remake & More.mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Nintendo%20Switch%202%EF%BC%9A%20What%27s%20Next%EF%BC%9F%20Direct%20%26%203D%20Mario%20Release%20Timing%2C%20Summer%20Lineup%2C%20Zelda%20Remake%20%26%20More.mp4.zip) `46.0MB`
+
+- 🗜️ [Nintendo Switch 2： What's Next？ Direct & 3D Mario Release Timing, Summer Lineup, Zelda Remake & More.mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Nintendo%20Switch%202%EF%BC%9A%20What%27s%20Next%EF%BC%9F%20Direct%20%26%203D%20Mario%20Release%20Timing%2C%20Summer%20Lineup%2C%20Zelda%20Remake%20%26%20More.mp4.z01) `95.0MB`
+
+- 🗜️ [Nintendo Switch 2： What's Next？ Direct & 3D Mario Release Timing, Summer Lineup, Zelda Remake & More.mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Nintendo%20Switch%202%EF%BC%9A%20What%27s%20Next%EF%BC%9F%20Direct%20%26%203D%20Mario%20Release%20Timing%2C%20Summer%20Lineup%2C%20Zelda%20Remake%20%26%20More.mp4.zip) `46.0MB`
+
+---
+
+
 ### 📅 2026-05-01 13:26 IR
 - 🎬 [Aemia Headbangs Through “Kleptomaniac” (Heavy Live Performance) ｜ Global Spin.mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Aemia%20Headbangs%20Through%20%E2%80%9CKleptomaniac%E2%80%9D%20%28Heavy%20Live%20Performance%29%20%EF%BD%9C%20Global%20Spin.mp4) `17.5MB`
 
