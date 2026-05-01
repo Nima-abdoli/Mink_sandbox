@@ -1,4 +1,4 @@
-name: 0x00 dl
+name: Mink Download
 
 on:
   workflow_dispatch:
