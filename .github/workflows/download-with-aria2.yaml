@@ -1,111 +1,245 @@
-name: Download from Commit & Save to Repo
+name:  Download from Commit & Save to Repo
+
 on:
-  push:
-    branches:
-      - "**"
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'Target URLs (Separate with space, comma, or new line)'
+        required: true
+        type: string
+      quality:
+        description: 'Video Quality (for supported extractors)'
+        required: true
+        type: choice
+        options:
+          - '480p (MP4 format - Recommended for <95MB)'
+          - '720p (MP4 format)'
+          - '360p (MP4 format)'
+          - 'Audio (MP3 format)'
+          - 'Best (Highest available)'
+      password:
+        description: 'ZIP Password (Optional - No ZIP applied if empty & under 95MB)'
+        required: false
+        type: string
+        default: ''
+
 jobs:
-  save-file:
+  download-and-save:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       contents: write
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
 
-      - name: Install aria2
-        run: sudo apt-get install -y aria2
-
-      - name: Extract URLs and download files
+      - name: Fast Install Dependencies
         run: |
-          MSG=$(git log -1 --pretty=%B)
-          echo "Commit message: $MSG"
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends aria2 ffmpeg
+          
+          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+          sudo chmod a+rx /usr/local/bin/yt-dlp
+          
+          curl -fsSL https://bun.com/install | bash
+          echo "$HOME/.bun/bin" >> $GITHUB_PATH
 
-          if echo "$MSG" | grep -qP 'download-zip:'; then
-            MODE="zip"
-            URL_LINE=$(echo "$MSG" | grep -oP 'download-zip:\s*\K.*')
-          elif echo "$MSG" | grep -qP 'download:'; then
-            MODE="normal"
-            URL_LINE=$(echo "$MSG" | grep -oP 'download:\s*\K.*')
+      - name: Setup YouTube Cookies 
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        run: |
+          if [ -n "$YOUTUBE_COOKIES" ]; then
+            echo "$YOUTUBE_COOKIES" > youtube_cookies.txt
           else
-            echo "❌ No download command found in commit message"
-            exit 1
+            touch youtube_cookies.txt
           fi
 
-          echo "Mode: $MODE"
-          mkdir -p downloads tmp_downloads
+      - name: Setup Bunkr script
+        run: |
+          cat << 'EOF' > bunkr.py
+          import os, sys, json, time, base64, requests
+          from math import floor
+          from itertools import cycle
+          from urllib.parse import urlparse
 
-          for URL in $URL_LINE; do
-            FILENAME=$(basename "$URL")
-            echo "⬇️ Downloading $URL -> $FILENAME"
+          BUNKRR_API = "https://bunkr.cr/api/vs"
+          BUNKRR_DOMAINS = ("bunkr.si", "bunkr.fi", "bunkr.ru", "bunkr.cr", "bunkr.rip", "bunkrr.su")
+          BUNKRR_DOWNLOAD_HEADERS = {"User-Agent": "Mozilla/5.0", "Referer": "https://get.bunkrr.su/"}
+          _offline_subs = set()
 
-            aria2c \
-              --split=2 \
-              --max-connection-per-server=2 \
-              --min-split-size=90M \
-              --dir="tmp_downloads" \
-              "$URL"
-          done
+          def is_bunkr_url(url): return any(dom in url for dom in BUNKRR_DOMAINS)
+          
+          def get_slug(url): return __import__("re").search(r"/([a-zA-Z0-9_-]+)$", url).group(1) if __import__("re").search(r"/([a-zA-Z0-9_-]+)$", url) else None
+          
+          def fetch_api(url):
+              slug = get_slug(url)
+              if not slug: return None
+              for dom in (BUNKRR_API.split("/")[2], *_offline_subs):
+                  try:
+                      resp = requests.post(f"https://{dom}/api/vs", json={"slug": slug}, headers=BUNKRR_DOWNLOAD_HEADERS, timeout=30)
+                      if resp.status_code == 200: return resp.json()
+                      if resp.status_code == 502: _offline_subs.add(dom)
+                  except: continue
+              return None
 
-          if [ "$MODE" = "zip" ]; then
-            ARCHIVE_NAME="tmp_downloads/archive_$(date +%Y%m%d_%H%M%S).zip"
-            zip -j "$ARCHIVE_NAME" tmp_downloads/*
+          def decrypt(api_resp):
+              try:
+                  t, enc = api_resp["timestamp"], base64.b64decode(api_resp["url"])
+                  dec = bytearray(b ^ next(cycle(f"SECRET_KEY_{floor(t/3600)}".encode("utf-8"))) for b in enc)
+                  return dec.decode("utf-8", errors="ignore")
+              except: return None
+
+          if __name__ == "__main__":
+              url = sys.argv[1]
+              outdir = sys.argv[2]
+              api_resp = fetch_api(url)
+              dl_link = decrypt(api_resp) if api_resp else None
+              if dl_link:
+                  filepath = os.path.join(outdir, urlparse(dl_link).path.rstrip("/").split("/")[-1])
+                  resp = requests.get(dl_link, headers=BUNKRR_DOWNLOAD_HEADERS, stream=True)
+                  with open(filepath, "wb") as f:
+                      for c in resp.iter_content(8192): f.write(c) if c else None
+          EOF
+
+      - name: Download & Process Files (Supports Multiple URLs)
+        shell: bash
+        run: |
+          RAW_URLS="${{ github.event.inputs.url }}"
+          QUALITY="${{ github.event.inputs.quality }}"
+          
+          FORMATTED_URLS=$(echo "$RAW_URLS" | tr ',' ' ' | tr '\n' ' ')
+          
+          rm -rf tmp_downloads
+          mkdir -p tmp_downloads dl
+          
+          if [[ "$QUALITY" == *"720p"* ]]; then
+            YTDLP_F="-f bestvideo[ext=mp4][height<=720]+bestaudio[ext=m4a]/best[ext=mp4][height<=720]/best --merge-output-format mp4"
+          elif [[ "$QUALITY" == *"480p"* ]]; then
+            YTDLP_F="-f bestvideo[ext=mp4][height<=480]+bestaudio[ext=m4a]/best[ext=mp4][height<=480]/best --merge-output-format mp4"
+          elif [[ "$QUALITY" == *"360p"* ]]; then
+            YTDLP_F="-f bestvideo[ext=mp4][height<=360]+bestaudio[ext=m4a]/best[ext=mp4][height<=360]/best --merge-output-format mp4"
+          elif [[ "$QUALITY" == *"Audio"* ]]; then
+            YTDLP_F="-x --audio-format mp3"
+          else
+            YTDLP_F="--merge-output-format mp4"
           fi
 
-          # Split any file over 90MB using zip native split (unzip compatible)
-          for FILE in tmp_downloads/*; do
-            [ -f "$FILE" ] || continue
-            SIZE=$(stat -c%s "$FILE")
-            LIMIT=$((90 * 1024 * 1024))
-            BASENAME=$(basename "$FILE")
+          for URL in $FORMATTED_URLS; do
+            if [ -z "$URL" ]; then continue; fi
+            
+            echo "==========================================="
+            echo "Processing URL: $URL"
+            echo "==========================================="
 
-            if [ "$SIZE" -gt "$LIMIT" ]; then
-              echo "✂️ $BASENAME is $(( SIZE / 1024 / 1024 ))MB — splitting with zip..."
-              # zip -s creates: file.zip, file.z01, file.z02, ...
-              zip -0 -s 90m "downloads/${BASENAME}.zip" -j "$FILE"
-              echo "✅ Parts: $(ls downloads/${BASENAME}* | wc -l)"
+            if echo "$URL" | grep -qE "(bunkr\.si|bunkr\.fi|bunkr\.ru|bunkr\.cr|bunkr\.rip|bunkrr\.su)"; then
+              echo "Downloading from Bunkr..."
+              python3 bunkr.py "$URL" "tmp_downloads"
+              
+            elif echo "$URL" | grep -qE "(youtube\.com|youtu\.be|twitch\.tv|reddit\.com|vimeo|soundcloud)"; then
+              echo "Downloading with yt-dlp..."
+              COOKIE_ARG=""
+              [ -s youtube_cookies.txt ] && COOKIE_ARG="--cookies youtube_cookies.txt"
+              
+              yt-dlp --js-runtimes bun:$HOME/.bun/bin/bun $COOKIE_ARG $YTDLP_F -o "tmp_downloads/%(title)s.%(ext)s" "$URL"
+              
             else
-              cp "$FILE" "downloads/$BASENAME"
+              echo "Downloading direct file with aria2..."
+              aria2c --split=2 --max-connection-per-server=2 --dir="tmp_downloads" "$URL"
             fi
           done
 
+      - name: Zip & Split
+        shell: bash
+        run: |
+          HAS_PASS="${{ github.event.inputs.password }}"
+
+          for FILE in tmp_downloads/*; do
+            [ -f "$FILE" ] || continue
+            SIZE=$(stat -c%s "$FILE")
+            LIMIT=$((95 * 1024 * 1024))
+            BASENAME=$(basename "$FILE")
+            
+            rm -f "dl/${BASENAME}.zip" "dl/${BASENAME}.z"*
+            
+            if [ -n "$HAS_PASS" ] || [ "$SIZE" -gt "$LIMIT" ]; then
+              echo "Zipping/Splitting: $BASENAME"
+              
+              PASS_ARG=""
+              [ -n "$HAS_PASS" ] && PASS_ARG="-P $HAS_PASS"
+              
+              zip $PASS_ARG -s 95m "dl/${BASENAME}.zip" -j "$FILE"
+              
+              for ZPART in "dl/${BASENAME}".zip "dl/${BASENAME}".z*; do
+                if [ -f "$ZPART" ]; then
+                  basename "$ZPART" >> new_files.txt
+                fi
+              done
+            else
+              echo "File is under 95MB. Copying raw file (No Zip)..."
+              cp -f "$FILE" "dl/$BASENAME"
+              echo "$BASENAME" >> new_files.txt
+            fi
+          done
           rm -rf tmp_downloads
 
-      - name: Commit & Push in batches of 5 files
+      - name: Update Links.md
+        shell: bash
+        run: |
+          [ ! -f new_files.txt ] && exit 0
+          
+          REPO="${{ github.repository }}"
+          BRANCH="${GITHUB_REF_NAME}"
+          
+          HEADER="## 🔗 Direct Download Links\n> Click on any link below to start downloading directly.<br><br/>\n\n"
+          
+          echo "### 📅 $(TZ='Asia/Tehran' date +'%Y-%m-%d %H:%M') IR" > current_run.md
+          
+          while IFS= read -r FNAME; do
+            ENCODED_NAME=$(python3 -c "import urllib.parse; print(urllib.parse.quote(input()))" <<< "$FNAME")
+            RAW_URL="https://github.com/$REPO/raw/$BRANCH/dl/$ENCODED_NAME"
+            
+            DISPLAY_NAME=$(echo "$FNAME" | sed -E 's/android[0-9]+\+_//g; s/-release//g')
+            
+            # Using env variable and a python one-liner to prevent any YAML/Bash indentation errors
+            export FNAME_ENV="$FNAME"
+            SIZE_STR=$(python3 -c "import os; fname = os.environ.get('FNAME_ENV'); path = f'dl/{fname}'; size = os.path.getsize(path) if os.path.exists(path) else 0; print(f'{size/1048576:.1f}MB' if size >= 1048576 else f'{size//1024}KB')")
+            
+            EXT="${FNAME##*.}"
+            case "$EXT" in
+              apk)             ICON="📱" ;;
+              mp4|mkv|avi|mov) ICON="🎬" ;;
+              mp3|m4a|flac|ogg) ICON="🎵" ;;
+              zip|z[0-9]*)     ICON="🗜️" ;;
+              *)               ICON="📥" ;;
+            esac
+            
+            echo "- $ICON [$DISPLAY_NAME]($RAW_URL) \`$SIZE_STR\`" >> current_run.md
+            echo "" >> current_run.md
+          done < new_files.txt
+          
+          echo "---" >> current_run.md
+          echo "" >> current_run.md
+          
+          if [ -f Links.md ]; then
+            tail -n +4 Links.md > old_links.md 2>/dev/null || touch old_links.md
+            echo -e "$HEADER" > Links.md
+            cat current_run.md old_links.md >> Links.md
+            rm old_links.md
+          else
+            echo -e "$HEADER" > Links.md
+            cat current_run.md >> Links.md
+          fi
+          
+          rm -f new_files.txt current_run.md
+
+      - name: Push to Repository
         run: |
           BRANCH="${GITHUB_REF_NAME}"
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          # Collect all new/untracked files under downloads/
-          mapfile -t ALL_FILES < <(git ls-files --others --modified --exclude-standard downloads/)
-
-          TOTAL=${#ALL_FILES[@]}
-          echo "📦 Total files to push: $TOTAL"
-
-          if [ "$TOTAL" -eq 0 ]; then
-            echo "Nothing to commit"
-            exit 0
-          fi
-
-          BATCH_SIZE=5
-          BATCH_NUM=0
-
-          for (( i=0; i<TOTAL; i+=BATCH_SIZE )); do
-            BATCH_NUM=$(( BATCH_NUM + 1 ))
-            BATCH=("${ALL_FILES[@]:i:BATCH_SIZE}")
-
-            echo "🚀 Pushing batch $BATCH_NUM: files $((i+1))–$(( i + ${#BATCH[@]} )) of $TOTAL"
-
-            git add "${BATCH[@]}"
-            git commit -m "Add downloaded files — batch $BATCH_NUM [skip ci]"
-
-            # Pull with rebase before each push to avoid conflicts from prior batches
-            git pull --rebase origin "$BRANCH"
-            git push origin HEAD:"$BRANCH"
-
-            echo "✅ Batch $BATCH_NUM pushed"
-          done
-
-          echo "🎉 All $TOTAL files pushed in $BATCH_NUM batch(es)"
+          git config user.name "NET-Sentinel Bot"
+          git config user.email "224584266+NetSentinel-Bot@users.noreply.github.com"
+          git add dl/ Links.md
+          git commit -m "Add downloaded files via Panel [skip ci]" || echo "Nothing to commit"
+          git push origin HEAD:$BRANCH
