@@ -3,8 +3,6 @@
 
 
 ### 📅 2026-05-01 16:06 IR
-- 🗜️ [v2rayN-windows-64.zip.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/v2rayN-windows-64.zip.zip) `48.3MB`
-
 - 🗜️ [v2rayN-windows-64.zip.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/v2rayN-windows-64.zip.z01) `95.0MB`
 
 - 🗜️ [v2rayN-windows-64.zip.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/v2rayN-windows-64.zip.zip) `48.3MB`
