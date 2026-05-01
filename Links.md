@@ -7,8 +7,6 @@
 
 - 🎬 [Arm comes to the Framework 13.mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Arm%20comes%20to%20the%20Framework%2013.mp4) `29.1MB`
 
-- 🗜️ [Cities： Skylines II ｜ Spring Cleaning (Part Two).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Cities%EF%BC%9A%20Skylines%20II%20%EF%BD%9C%20Spring%20Cleaning%20%28Part%20Two%29.mp4.zip) `93.0MB`
-
 - 🗜️ [Cities： Skylines II ｜ Spring Cleaning (Part Two).mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Cities%EF%BC%9A%20Skylines%20II%20%EF%BD%9C%20Spring%20Cleaning%20%28Part%20Two%29.mp4.z01) `95.0MB`
 
 - 🗜️ [Cities： Skylines II ｜ Spring Cleaning (Part Two).mp4.z02](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/Cities%EF%BC%9A%20Skylines%20II%20%EF%BD%9C%20Spring%20Cleaning%20%28Part%20Two%29.mp4.z02) `95.0MB`
