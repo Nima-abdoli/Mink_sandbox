@@ -2,6 +2,60 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-02 22:45 IR
+- 🗜️ [How to make your first Video Game - Assets & Camera Setup (Ep. 3).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Assets%20%26%20Camera%20Setup%20%28Ep.%203%29.mp4.zip) `37.7MB`
+
+- 🗜️ [How to make your first Video Game - Assets & Camera Setup (Ep. 3).mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Assets%20%26%20Camera%20Setup%20%28Ep.%203%29.mp4.z01) `95.0MB`
+
+- 🗜️ [How to make your first Video Game - Assets & Camera Setup (Ep. 3).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Assets%20%26%20Camera%20Setup%20%28Ep.%203%29.mp4.zip) `37.7MB`
+
+- 🗜️ [How to make your first Video Game - Audio Basics & Footstep Sounds (Ep. 7).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Audio%20Basics%20%26%20Footstep%20Sounds%20%28Ep.%207%29.mp4.zip) `15.1MB`
+
+- 🗜️ [How to make your first Video Game - Audio Basics & Footstep Sounds (Ep. 7).mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Audio%20Basics%20%26%20Footstep%20Sounds%20%28Ep.%207%29.mp4.z01) `95.0MB`
+
+- 🗜️ [How to make your first Video Game - Audio Basics & Footstep Sounds (Ep. 7).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Audio%20Basics%20%26%20Footstep%20Sounds%20%28Ep.%207%29.mp4.zip) `15.1MB`
+
+- 🎬 [How to make your first Video Game - Basic Animation (Ep. 5).mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Basic%20Animation%20%28Ep.%205%29.mp4) `82.5MB`
+
+- 🗜️ [How to make your first Video Game - Complex Animation (Ep. 6).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Complex%20Animation%20%28Ep.%206%29.mp4.zip) `25.7MB`
+
+- 🗜️ [How to make your first Video Game - Complex Animation (Ep. 6).mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Complex%20Animation%20%28Ep.%206%29.mp4.z01) `95.0MB`
+
+- 🗜️ [How to make your first Video Game - Complex Animation (Ep. 6).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Complex%20Animation%20%28Ep.%206%29.mp4.zip) `25.7MB`
+
+- 🗜️ [How to make your first Video Game - Fixing Player Movement (Ep. 4).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Fixing%20Player%20Movement%20%28Ep.%204%29.mp4.zip) `22.8MB`
+
+- 🗜️ [How to make your first Video Game - Fixing Player Movement (Ep. 4).mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Fixing%20Player%20Movement%20%28Ep.%204%29.mp4.z01) `95.0MB`
+
+- 🗜️ [How to make your first Video Game - Fixing Player Movement (Ep. 4).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Fixing%20Player%20Movement%20%28Ep.%204%29.mp4.zip) `22.8MB`
+
+- 🗜️ [How to make your first Video Game - Getting Started in Godot (Ep. 1).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Getting%20Started%20in%20Godot%20%28Ep.%201%29.mp4.zip) `30.0MB`
+
+- 🗜️ [How to make your first Video Game - Getting Started in Godot (Ep. 1).mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Getting%20Started%20in%20Godot%20%28Ep.%201%29.mp4.z01) `95.0MB`
+
+- 🗜️ [How to make your first Video Game - Getting Started in Godot (Ep. 1).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Getting%20Started%20in%20Godot%20%28Ep.%201%29.mp4.zip) `30.0MB`
+
+- 🗜️ [How to make your first Video Game - Intro to Code (Ep. 2).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Intro%20to%20Code%20%28Ep.%202%29.mp4.zip) `11.2MB`
+
+- 🗜️ [How to make your first Video Game - Intro to Code (Ep. 2).mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Intro%20to%20Code%20%28Ep.%202%29.mp4.z01) `95.0MB`
+
+- 🗜️ [How to make your first Video Game - Intro to Code (Ep. 2).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Intro%20to%20Code%20%28Ep.%202%29.mp4.zip) `11.2MB`
+
+- 🗜️ [How to make your first Video Game - State Machines (Ep. 8).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20State%20Machines%20%28Ep.%208%29.mp4.zip) `20.5MB`
+
+- 🗜️ [How to make your first Video Game - State Machines (Ep. 8).mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20State%20Machines%20%28Ep.%208%29.mp4.z01) `95.0MB`
+
+- 🗜️ [How to make your first Video Game - State Machines (Ep. 8).mp4.z02](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20State%20Machines%20%28Ep.%208%29.mp4.z02) `95.0MB`
+
+- 🗜️ [How to make your first Video Game - State Machines (Ep. 8).mp4.z03](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20State%20Machines%20%28Ep.%208%29.mp4.z03) `95.0MB`
+
+- 🗜️ [How to make your first Video Game - State Machines (Ep. 8).mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20State%20Machines%20%28Ep.%208%29.mp4.zip) `20.5MB`
+
+- 🎬 [How to make your first Video Game - Type-safety (Ep. 2.5).mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/How%20to%20make%20your%20first%20Video%20Game%20-%20Type-safety%20%28Ep.%202.5%29.mp4) `29.2MB`
+
+---
+
+
 ### 📅 2026-05-02 22:29 IR
 - 🎬 [MacBook Neo Unboxing, Setup and Review (4K 60).mp4](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/MacBook%20Neo%20Unboxing%2C%20Setup%20and%20Review%20%284K%2060%29.mp4) `47.9MB`
 
