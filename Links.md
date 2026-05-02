@@ -3,8 +3,6 @@
 
 
 ### 📅 2026-05-02 22:01 IR
-- 🗜️ [ترامپ： بهتر است توافق نکنیم ج.ا： می خواهیم توافق را آسان کنیم.mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D8%AA%D8%B1%D8%A7%D9%85%D9%BE%EF%BC%9A%20%D8%A8%D9%87%D8%AA%D8%B1%20%D8%A7%D8%B3%D8%AA%20%D8%AA%D9%88%D8%A7%D9%81%D9%82%20%D9%86%DA%A9%D9%86%DB%8C%D9%85%20%D8%AC.%D8%A7%EF%BC%9A%20%D9%85%DB%8C%20%D8%AE%D9%88%D8%A7%D9%87%DB%8C%D9%85%20%D8%AA%D9%88%D8%A7%D9%81%D9%82%20%D8%B1%D8%A7%20%D8%A2%D8%B3%D8%A7%D9%86%20%DA%A9%D9%86%DB%8C%D9%85.mp4.zip) `23.2MB`
-
 - 🗜️ [ترامپ： بهتر است توافق نکنیم ج.ا： می خواهیم توافق را آسان کنیم.mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D8%AA%D8%B1%D8%A7%D9%85%D9%BE%EF%BC%9A%20%D8%A8%D9%87%D8%AA%D8%B1%20%D8%A7%D8%B3%D8%AA%20%D8%AA%D9%88%D8%A7%D9%81%D9%82%20%D9%86%DA%A9%D9%86%DB%8C%D9%85%20%D8%AC.%D8%A7%EF%BC%9A%20%D9%85%DB%8C%20%D8%AE%D9%88%D8%A7%D9%87%DB%8C%D9%85%20%D8%AA%D9%88%D8%A7%D9%81%D9%82%20%D8%B1%D8%A7%20%D8%A2%D8%B3%D8%A7%D9%86%20%DA%A9%D9%86%DB%8C%D9%85.mp4.z01) `95.0MB`
 
 - 🗜️ [ترامپ： بهتر است توافق نکنیم ج.ا： می خواهیم توافق را آسان کنیم.mp4.z02](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D8%AA%D8%B1%D8%A7%D9%85%D9%BE%EF%BC%9A%20%D8%A8%D9%87%D8%AA%D8%B1%20%D8%A7%D8%B3%D8%AA%20%D8%AA%D9%88%D8%A7%D9%81%D9%82%20%D9%86%DA%A9%D9%86%DB%8C%D9%85%20%D8%AC.%D8%A7%EF%BC%9A%20%D9%85%DB%8C%20%D8%AE%D9%88%D8%A7%D9%87%DB%8C%D9%85%20%D8%AA%D9%88%D8%A7%D9%81%D9%82%20%D8%B1%D8%A7%20%D8%A2%D8%B3%D8%A7%D9%86%20%DA%A9%D9%86%DB%8C%D9%85.mp4.z02) `95.0MB`
