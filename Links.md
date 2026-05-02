@@ -3,8 +3,6 @@
 
 
 ### 📅 2026-05-02 08:44 IR
-- 🗜️ [عقب نشینی عجیب جمهوری اسلامی⧸ ترامپ： هنوز راضی نیستم.mp4.zip](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D8%B9%D9%82%D8%A8%20%D9%86%D8%B4%DB%8C%D9%86%DB%8C%20%D8%B9%D8%AC%DB%8C%D8%A8%20%D8%AC%D9%85%D9%87%D9%88%D8%B1%DB%8C%20%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C%E2%A7%B8%20%D8%AA%D8%B1%D8%A7%D9%85%D9%BE%EF%BC%9A%20%D9%87%D9%86%D9%88%D8%B2%20%D8%B1%D8%A7%D8%B6%DB%8C%20%D9%86%DB%8C%D8%B3%D8%AA%D9%85.mp4.zip) `67.8MB`
-
 - 🗜️ [عقب نشینی عجیب جمهوری اسلامی⧸ ترامپ： هنوز راضی نیستم.mp4.z01](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D8%B9%D9%82%D8%A8%20%D9%86%D8%B4%DB%8C%D9%86%DB%8C%20%D8%B9%D8%AC%DB%8C%D8%A8%20%D8%AC%D9%85%D9%87%D9%88%D8%B1%DB%8C%20%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C%E2%A7%B8%20%D8%AA%D8%B1%D8%A7%D9%85%D9%BE%EF%BC%9A%20%D9%87%D9%86%D9%88%D8%B2%20%D8%B1%D8%A7%D8%B6%DB%8C%20%D9%86%DB%8C%D8%B3%D8%AA%D9%85.mp4.z01) `95.0MB`
 
 - 🗜️ [عقب نشینی عجیب جمهوری اسلامی⧸ ترامپ： هنوز راضی نیستم.mp4.z02](https://github.com/Nima-abdoli/Mink_sandbox/raw/main/dl/%D8%B9%D9%82%D8%A8%20%D9%86%D8%B4%DB%8C%D9%86%DB%8C%20%D8%B9%D8%AC%DB%8C%D8%A8%20%D8%AC%D9%85%D9%87%D9%88%D8%B1%DB%8C%20%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C%E2%A7%B8%20%D8%AA%D8%B1%D8%A7%D9%85%D9%BE%EF%BC%9A%20%D9%87%D9%86%D9%88%D8%B2%20%D8%B1%D8%A7%D8%B6%DB%8C%20%D9%86%DB%8C%D8%B3%D8%AA%D9%85.mp4.z02) `95.0MB`
